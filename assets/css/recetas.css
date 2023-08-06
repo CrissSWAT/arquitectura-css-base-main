@@ -1,0 +1,41 @@
+
+.recetas{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(350px, 1fr));
+    width: 100%;
+    gap: 3rem;
+    place-items: center;
+    background-color: #e5ceb6;
+}
+.tarjetas img{
+    width: 100%;
+}
+.tarjetas{
+    width: 300px;
+    background-color: white;
+    margin: 3rem 0;
+}
+.tarjeta_letras{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem;
+   padding: 1rem;
+}
+.tarjeta_letras h1{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.tarjeta_letras p{
+    font-family: 'Roboto', sans-serif;
+}
+.tarjeta_letras a{
+    text-decoration: none;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: red;
+    background-color: red;
+    color: white;
+    padding: 0.3rem;
+    width: 30%;
+}

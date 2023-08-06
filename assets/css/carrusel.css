@@ -1,0 +1,40 @@
+.carrusel__imagenes img{
+    width: 100%;
+}
+.carrusel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.carrusel h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 81px;
+    color: white;
+    width: 100%;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carrusel ul{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+}
+.carrusel_unlist a{
+    border-radius: 100%;
+    border-style: solid;
+    border-color: black;
+    border: 25px;
+}
+.carrusel_unlist a:hover{
+    border-color: blue;
+}

@@ -1,0 +1,40 @@
+.nosotros__titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.nosotros__titulo h1{
+    font-family: 'Pacifico', cursive;
+    color: #DA2B1F;
+    font-size: 51px;
+}
+.nosotros__titulo p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #8C8888;
+}
+.nosotros__contenedor__persona{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.nosotros__contenedor__persona h1{
+    font-family: 'Pacifico', cursive;
+    color: #DA2B1F;
+    font-size: 23px;
+}
+.nosotros__contenedor__persona img{
+    border-radius: 50%;
+    width: 100%;
+}
+.nosotros__tarjetas{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(350px, 1fr));
+    width: 100%;
+    gap: 3rem;
+    place-items: center;
+}

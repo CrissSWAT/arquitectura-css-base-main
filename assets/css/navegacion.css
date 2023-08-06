@@ -1,0 +1,21 @@
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+.navegacion_navegadores ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style: none;
+    color: gray;
+}
+.navegacion_navegadores a{
+    text-decoration: none;
+}
+.navegacion__resaltar:hover{
+font-weight: bolder;
+color: black;
+}
